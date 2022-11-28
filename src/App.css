@@ -1,0 +1,63 @@
+.app{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.todo-container{
+    width:40%;
+    /* padding: 4em; */
+    display: flex;
+    min-width: 300px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10em;
+}
+.form-content{
+    width:70%;
+}
+.form-edit{
+    width:70%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.input-field{
+    width: 100%;
+    padding:10px;
+    margin-top: 10px;
+}
+.input-edit{
+    width: 50%;
+    padding: 8px;
+}
+
+.show-task{
+    width: 70%;
+    position: relative;
+}
+.item{
+    background-color: #FB2576;
+    width:100%;
+    margin-top: 10px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.item p:nth-child(1){
+    cursor: pointer;
+}
+.item .edit,.delete{
+    cursor: pointer;
+    position: absolute;
+}
+.item .edit{
+right: 10px;
+}
+.item .delete{
+right:45px;
+}
+
